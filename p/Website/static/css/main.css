@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    background: none;
+}
+
 .header {
     background: #35276e;
     color: #d8bfd8;
@@ -23,7 +30,7 @@
     border-color: #35276e
 }
 
-.bttn {
+.search_button {
     height: 40px;
     width: 11%;
     margin-right: 15px;
@@ -38,7 +45,7 @@
     min-height: 252px;
     vertical-align: top;
     background: #d8bfd8;
-    color: #35276e
+    color: #35276e;
 }
 
 .product_table {
@@ -47,9 +54,17 @@
     margin-right: auto;
     width: 95%;
     min-width: 1824px;
-    background: #0dcaf0;
 }
 
 .pass {
     height: 25px;
+}
+
+.sell_button{
+    width: 95%;
+    background: #35276e;
+    border-color: #d8bfd8;
+    color: #d8bfd8;
+    margin-left: auto;
+    margin-right: auto;
 }

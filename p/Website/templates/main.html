@@ -5,7 +5,7 @@
     <title>KpopShop</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../static/css/main.css">
-    <link rel="icon" href="data:;base64,=">
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
     <style>
         body {
             min-width: 1890px;
@@ -13,6 +13,7 @@
             background-attachment: fixed;
             background-size: cover;
         }
+
         table {
             table-layout: fixed;
         }
@@ -33,14 +34,15 @@
 <form method="POST" class="search-form" action="">
     <h4 class="filter-inner">
         <input type="text" name="filter" class="search-inner" placeholder="Поиск по товарам">
-        <button class="button bttn" type="submit">Поиск</button>
+        <button class="button search_button" type="submit">Поиск</button>
     </h4>
 </form>
 <table border="0" class="product_table">
     <tr>
         <td class="product" style="text-align:center">
-            <img src="{{path_to_img}}" alt="альтернативный текст" style="vertical-align: top" width="180" height="180">
+            <img src="{{path_to_img}}" alt="альтернативный текст" width="180" height="180">
             <h5>{{pr_title}}</h5>
+            <button class="button sell_button">Купить</button>
         </td>
         <td class="pass"></td>
         <td class="product"></td>

@@ -1,18 +1,23 @@
 # coding: utf-8
 
 from flask import Flask, request, render_template
-from flask import Flask
+from flask_caching import Cache
 from p.Website.data import db_session
 from p.Website.data.users import User
 from p.Website.data.products import Product
 
+cache = Cache(config={'CACHE_TYPE': 'null'})
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
+app.config["CACHE_TYPE"] = "null"
+cache.init_app(app)
+with app.app_context():
+    cache.clear()
 
 
 def main():
     db_session.global_init("../Website/db/blogs.sqlite")
-    app.run(port=8080, host='127.0.0.1')
+    app.run(port=8000, host='127.0.0.1')
     """product = Product()
     product.title = "Лайтстик BTS"
     product.describtion = "Светящаяся палочка фандома BTS (A.R.M.Y.)"
