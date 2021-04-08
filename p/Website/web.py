@@ -3,7 +3,7 @@
 from flask import Flask, request, render_template
 from flask_caching import Cache
 from p.Website.data import db_session
-from p.Website.data.users import User
+# from p.Website.data.users import User
 from p.Website.data.products import Product
 
 cache = Cache(config={'CACHE_TYPE': 'null'})
