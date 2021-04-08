@@ -14,8 +14,8 @@ cache.init_app(app)
 
 
 def main():
-    """db_session.global_init("../Website/db/blogs.sqlite")
-    product = Product()
+    db_session.global_init("../Website/db/blogs.sqlite")
+    """product = Product()
     product.title = "Лайтстик BTS"
     product.describtion = "Светящаяся палочка фандома BTS (A.R.M.Y.)"
     product.path_to_img = "пока нет"
