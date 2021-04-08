@@ -1,0 +1,60 @@
+.header {
+    background: #35276e;
+    color: #d8bfd8;
+    min-width: 2000px;
+}
+
+.about {
+    margin-top: 15px;
+    color: #d8bfd8;
+    background: #35276e;
+    min-width: 2000px;
+
+}
+
+.search-inner {
+    height: 42px;
+    padding: 10px 30px;
+    width: 86.5%;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 5px;
+    background: #d8bfd8;
+    border-color: #35276e
+}
+
+.bttn {
+    height: 40px;
+    width: 11%;
+    margin-right: 15px;
+    background: #d8bfd8;
+    border-color: #35276e
+}
+
+.product {
+    width: 189px;
+    min-width: 189px;
+    height: 252px;
+    min-height: 252px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background: #0f5132;
+    vertical-align: top;
+}
+
+.product_table {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    min-width: 1824px;
+    background: #0dcaf0;
+}
+
+.col-height {
+    min-height: 252px;
+    height: 252px;
+}
+.pass {
+    height: 25px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>KpopShop</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+    <link rel="icon" href="data:;base64,=">
+    <style>
+        body {
+            min-width: 1890px;
+            background: #483d8b; /* url(img/bg.jpg); */
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        table {
+            table-layout: fixed;
+        }
+    </style>
+</head>
+<body>
+<div class="header py-3">
+    <h2 style="text-align:center">
+        K-popShop
+    </h2>
+</div>
+<div class="about py-3">
+    <h4 style="text-align:center">
+        K-popShop ㅡ проверенный магазин официального мерча корейских исполнителей с доставкой по всему миру. KP ㅡ
+        удобнее, быстрее, радостнее.
+    </h4>
+</div>
+<form method="POST" class="search-form" action="">
+    <h4 class="filter-inner">
+        <input type="text" name="filter" class="search-inner" placeholder="Поиск по товарам">
+        <button class="button bttn" type="submit">Поиск</button>
+    </h4>
+</form>
+<table border="0" class="product_table">
+    <tr class="col-height">
+        <td class="product" style="text-align:center">
+            <img src="{{path_to_img}}" alt="альтернативный текст" width="180" height="180">
+            <h6>{{pr_title}}</h6>
+        </td>
+        <td class="pass"></td>
+        <td class="product"></td>
+        <td class="pass"></td>
+        <td class="product"></td>
+        <td class="pass"></td>
+        <td class="product"></td>
+        <td class="pass"></td>
+        <td class="product"></td>
+        <td class="pass"></td>
+        <td class="product"></td>
+    </tr>
+    <tr>
+        <td class="pass"></td>
+        <td class="pass"></td>
+        <td class="pass"></td>
+        <td class="pass"></td>
+        <td class="pass"></td>
+        <td class="pass"></td>
+        <td class="pass"></td>
+        <td class="pass"></td>
+        <td class="pass"></td>
+        <td class="pass"></td>
+        <td class="pass"></td>
+    </tr>
+    <tr class="col-height">
+        <td class="product"></td>
+        <td class="pass"></td>
+        <td class="product"></td>
+        <td class="pass"></td>
+        <td class="product"></td>
+        <td class="pass"></td>
+        <td class="product"></td>
+        <td class="pass"></td>
+        <td class="product"></td>
+        <td class="pass"></td>
+        <td class="product"></td>
+    </tr>
+</table>
+</body>
+</html>
