@@ -33,7 +33,6 @@ def main_wind():
     else:
         session = db_session.create_session()
         product = session.query(Product).first()
-        product.path_to_img = 'armybomb.jpg'
         return render_template('main.html', path_to_img="../static/img/" + product.path_to_img, pr_title=product.title)
 
 

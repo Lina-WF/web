@@ -36,10 +36,9 @@
     min-width: 189px;
     height: 252px;
     min-height: 252px;
-    margin-left: 50px;
-    margin-top: 50px;
-    background: #0f5132;
     vertical-align: top;
+    background: #d8bfd8;
+    color: #35276e
 }
 
 .product_table {
@@ -51,10 +50,6 @@
     background: #0dcaf0;
 }
 
-.col-height {
-    min-height: 252px;
-    height: 252px;
-}
 .pass {
     height: 25px;
 }
